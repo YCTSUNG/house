@@ -1,0 +1,91 @@
+.container1{
+    width:1200px ;
+    height: 960px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+.up{
+    width: auto;
+    height: 90px;
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+}
+
+.sqr{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.container1 .up .annai{
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.container .up li{
+    float: left;
+    color: white;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.container1 .up a{
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+    display: block;
+}
+
+.container1 .up a:hover{
+    
+    background-color: aqua;
+}
+
+.container1 .up h2{
+    color: white;
+    line-height: 80px;
+    margin-left: 300px;
+}
+
+
+.container1 .up .roguin{
+    margin-top: 15px;
+}
+
+.container1 .middle .banner1{
+    width: auto;
+    height: 500px;
+    background-image:url(./banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 .footer1{
+    width: auto;
+    height: 370px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 a{
+    text-decoration: none;
+}
+
+.pic1 , .pic2 , .pic3{
+    width: 150px;
+    height: 110px;
+    background-color: purple;
+    margin-top:150px;;
+}
+
+.container1 .footer1 h3{
+   text-align: center;
+   margin-top: -60px;
+   color: white;
+}
